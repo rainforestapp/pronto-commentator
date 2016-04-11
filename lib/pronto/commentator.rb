@@ -1,8 +1,7 @@
 # frozen_string_literal: true
-require 'pronto/commentator/version'
+require 'pronto'
 
 module Pronto
-  module Commentator
-    # Your code goes here...
+  class Commentator < Runner
   end
 end
