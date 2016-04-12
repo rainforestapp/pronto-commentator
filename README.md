@@ -1,41 +1,41 @@
-# Pronto::Commentator
+# Pronto Commentator [![Circle CI](https://circleci.com/gh/rainforestapp/pronto-commentator.svg?style=svg)](https://circleci.com/gh/rainforestapp/pronto-commentator)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pronto/commentator`. To experiment with that code, run `bin/console` for an interactive prompt.
+Pronto Commentator a very simple runner for
+[Pronto](https://github.com/mozuras/pronto) that outputs arbitrary comments
+based on filename matching. It's good for tagging specific people to review
+specific kinds of changes (for instance, tagging your security team if
+auth-related files change), and probably other things as well.
 
-TODO: Delete this and the text above, and describe your gem
+## Configuration
 
-## Installation
+The main configuration file should be located at `.commentator/config.yml` in
+your repo root. Pronto Commentator won't do anything unless the config file is
+present. The configuration is pretty simple: it needs a root `files` key,
+followed by associations of filename patterns to message file names. Here's an
+example:
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'pronto-commentator'
+```yaml
+files:
+  app/lib/auth*.rb:
+    ping_bob.md
+  "doc/chapters/[1-3].txt":
+    ping_real_writers.md
 ```
 
-And then execute:
+The file names should point to files in the `.commentator` directory. For
+example, `.commentator/ping_bob.md` could look something like this:
 
-    $ bundle
+```
+@bob looks like someone's trying to change the auth logic again, better take a
+look!
+```
 
-Or install it yourself as:
+(Files don't have to be Markdown, but if you're using Github it's kinda nice).
 
-    $ gem install pronto-commentator
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+File name matching uses
+[Glob syntax](http://ruby-doc.org/core-2.3.0/Dir.html#method-c-glob).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/pronto-commentator.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/rainforestapp/pronto-commentator.
