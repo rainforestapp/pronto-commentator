@@ -1,0 +1,38 @@
+0000000000000000000000000000000000000000 65aa3f4fe82fc0547df7d5cceb244571150910e1 Emanuel Evans <mail@emanuel.industries> 1460416681 -0700	commit (initial): Initial commit
+65aa3f4fe82fc0547df7d5cceb244571150910e1 65aa3f4fe82fc0547df7d5cceb244571150910e1 Emanuel Evans <mail@emanuel.industries> 1460416689 -0700	checkout: moving from master to branch
+65aa3f4fe82fc0547df7d5cceb244571150910e1 65aa3f4fe82fc0547df7d5cceb244571150910e1 Emanuel Evans <mail@emanuel.industries> 1460416696 -0700	checkout: moving from branch to master
+65aa3f4fe82fc0547df7d5cceb244571150910e1 87fcbcd1ae0959f29999cc3a513156117ed0e18c Emanuel Evans <mail@emanuel.industries> 1460416722 -0700	commit (amend): Initial commit
+87fcbcd1ae0959f29999cc3a513156117ed0e18c 44731469d9dc7e1c74ba25bf071d19f50c54a8f8 Emanuel Evans <mail@emanuel.industries> 1460419035 -0700	commit: Commentator config
+44731469d9dc7e1c74ba25bf071d19f50c54a8f8 44731469d9dc7e1c74ba25bf071d19f50c54a8f8 Emanuel Evans <mail@emanuel.industries> 1460419058 -0700	checkout: moving from master to branch
+44731469d9dc7e1c74ba25bf071d19f50c54a8f8 6ba098fab65f6c04c173d7093a9d7b7718d28a16 Emanuel Evans <mail@emanuel.industries> 1460419082 -0700	commit: Qux
+6ba098fab65f6c04c173d7093a9d7b7718d28a16 df974b99a7b2234e9a26415d026230c5f6c00012 Emanuel Evans <mail@emanuel.industries> 1460419122 -0700	commit: z
+df974b99a7b2234e9a26415d026230c5f6c00012 78dfbe211742b18c4789a06509df424a4ae153d9 Emanuel Evans <mail@emanuel.industries> 1460419128 -0700	commit (amend): Z
+78dfbe211742b18c4789a06509df424a4ae153d9 bc074e5bd3fb030dde4e7b8a977fcee03096a117 Emanuel Evans <mail@emanuel.industries> 1460419218 -0700	commit: A
+bc074e5bd3fb030dde4e7b8a977fcee03096a117 e721620eee4b39ff88dd8c172c87d72c80a31fa4 Emanuel Evans <mail@emanuel.industries> 1460419897 -0700	commit: A
+e721620eee4b39ff88dd8c172c87d72c80a31fa4 b83e79cbdeccdc72005928289dceff49abfa22f1 Emanuel Evans <mail@emanuel.industries> 1460419913 -0700	commit: nothing
+b83e79cbdeccdc72005928289dceff49abfa22f1 991265529808f0aeb846f322b90139fd2090cc78 Emanuel Evans <mail@emanuel.industries> 1460422605 -0700	commit: fdsa
+991265529808f0aeb846f322b90139fd2090cc78 6ba098fab65f6c04c173d7093a9d7b7718d28a16 Emanuel Evans <mail@emanuel.industries> 1460422620 -0700	rebase -i (start): checkout 6ba098f^
+6ba098fab65f6c04c173d7093a9d7b7718d28a16 04204b0988b0e4344849d627ca72d88d5cde46c1 Emanuel Evans <mail@emanuel.industries> 1460422620 -0700	rebase -i (fixup): Qux
+04204b0988b0e4344849d627ca72d88d5cde46c1 459fa6ee31ee9f0a0ba7f4580deda8764b2447d9 Emanuel Evans <mail@emanuel.industries> 1460422620 -0700	rebase -i (pick): Z
+459fa6ee31ee9f0a0ba7f4580deda8764b2447d9 5c1e88ddb37b33d6a3920f3d6e3c3f523b578a31 Emanuel Evans <mail@emanuel.industries> 1460422620 -0700	rebase -i (pick): A
+5c1e88ddb37b33d6a3920f3d6e3c3f523b578a31 a101af2b183383bbf581a7f80b01e93bcb248efc Emanuel Evans <mail@emanuel.industries> 1460422621 -0700	rebase -i (pick): A
+a101af2b183383bbf581a7f80b01e93bcb248efc 1cda5f17d11bb5cec85c88dbe64ad9371ff83582 Emanuel Evans <mail@emanuel.industries> 1460422621 -0700	rebase -i (pick): nothing
+1cda5f17d11bb5cec85c88dbe64ad9371ff83582 1cda5f17d11bb5cec85c88dbe64ad9371ff83582 Emanuel Evans <mail@emanuel.industries> 1460422621 -0700	rebase -i (finish): returning to refs/heads/branch
+1cda5f17d11bb5cec85c88dbe64ad9371ff83582 9d9f967fef3d82253c98203c33cdc78142d9147a Emanuel Evans <mail@emanuel.industries> 1460422775 -0700	commit: ffdsa
+9d9f967fef3d82253c98203c33cdc78142d9147a 44731469d9dc7e1c74ba25bf071d19f50c54a8f8 Emanuel Evans <mail@emanuel.industries> 1460422786 -0700	rebase -i (start): checkout 4473146^
+44731469d9dc7e1c74ba25bf071d19f50c54a8f8 2f462fed5db25e05633272078647390b0059aac7 Emanuel Evans <mail@emanuel.industries> 1460422786 -0700	rebase -i (fixup): Commentator config
+2f462fed5db25e05633272078647390b0059aac7 47d8a3720e8ffa98578b2465b20ca215826fddb4 Emanuel Evans <mail@emanuel.industries> 1460422787 -0700	rebase -i (pick): Qux
+47d8a3720e8ffa98578b2465b20ca215826fddb4 cf9b3f9f9045dd3f27b708afe01059fc66ae81bc Emanuel Evans <mail@emanuel.industries> 1460422787 -0700	rebase -i (pick): Z
+cf9b3f9f9045dd3f27b708afe01059fc66ae81bc 8149e6264db696458c910f1cb5fe45a59011623c Emanuel Evans <mail@emanuel.industries> 1460422787 -0700	rebase -i (pick): A
+8149e6264db696458c910f1cb5fe45a59011623c 4810d9e387e61a245eede20a52ca120defcf8953 Emanuel Evans <mail@emanuel.industries> 1460422787 -0700	rebase -i (pick): A
+4810d9e387e61a245eede20a52ca120defcf8953 0656f62f3441c107fa74eac96fe66dc9894f26ee Emanuel Evans <mail@emanuel.industries> 1460422787 -0700	rebase -i (pick): nothing
+0656f62f3441c107fa74eac96fe66dc9894f26ee 0656f62f3441c107fa74eac96fe66dc9894f26ee Emanuel Evans <mail@emanuel.industries> 1460422787 -0700	rebase -i (finish): returning to refs/heads/branch
+0656f62f3441c107fa74eac96fe66dc9894f26ee 44731469d9dc7e1c74ba25bf071d19f50c54a8f8 Emanuel Evans <mail@emanuel.industries> 1460422815 -0700	checkout: moving from branch to master
+44731469d9dc7e1c74ba25bf071d19f50c54a8f8 2f462fed5db25e05633272078647390b0059aac7 Emanuel Evans <mail@emanuel.industries> 1460422833 -0700	reset: moving to branch~5
+2f462fed5db25e05633272078647390b0059aac7 0656f62f3441c107fa74eac96fe66dc9894f26ee Emanuel Evans <mail@emanuel.industries> 1460422836 -0700	checkout: moving from master to branch
+0656f62f3441c107fa74eac96fe66dc9894f26ee 47d8a3720e8ffa98578b2465b20ca215826fddb4 Emanuel Evans <mail@emanuel.industries> 1460424350 -0700	rebase -i (start): checkout 47d8a37^
+47d8a3720e8ffa98578b2465b20ca215826fddb4 ab588aaa9ca03f31a2e763ead014618c6feea22b Emanuel Evans <mail@emanuel.industries> 1460424350 -0700	rebase -i (squash): Qux + Z
+ab588aaa9ca03f31a2e763ead014618c6feea22b fd968522cc5da4d141c8f25ec0be90a5781e4ac4 Emanuel Evans <mail@emanuel.industries> 1460424357 -0700	rebase -i (pick): A
+fd968522cc5da4d141c8f25ec0be90a5781e4ac4 f6d1c000c157940958305defc0d788e9336a1022 Emanuel Evans <mail@emanuel.industries> 1460424357 -0700	rebase -i (pick): A
+f6d1c000c157940958305defc0d788e9336a1022 bca32bf426a456f74aa1162a07b644838436c6f3 Emanuel Evans <mail@emanuel.industries> 1460424357 -0700	rebase -i (pick): nothing
+bca32bf426a456f74aa1162a07b644838436c6f3 bca32bf426a456f74aa1162a07b644838436c6f3 Emanuel Evans <mail@emanuel.industries> 1460424357 -0700	rebase -i (finish): returning to refs/heads/branch

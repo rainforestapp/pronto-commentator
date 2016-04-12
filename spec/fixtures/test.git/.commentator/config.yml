@@ -1,0 +1,7 @@
+files:
+  "[a-z]":
+    single_letter.md
+  a:
+    a.md
+  dir/**/*:
+    nested.md

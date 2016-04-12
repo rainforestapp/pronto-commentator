@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 44731469d9dc7e1c74ba25bf071d19f50c54a8f8 Emanuel Evans <mail@emanuel.industries> 1460419058 -0700	branch: Created from master
+44731469d9dc7e1c74ba25bf071d19f50c54a8f8 6ba098fab65f6c04c173d7093a9d7b7718d28a16 Emanuel Evans <mail@emanuel.industries> 1460419082 -0700	commit: Qux
+6ba098fab65f6c04c173d7093a9d7b7718d28a16 df974b99a7b2234e9a26415d026230c5f6c00012 Emanuel Evans <mail@emanuel.industries> 1460419122 -0700	commit: z
+df974b99a7b2234e9a26415d026230c5f6c00012 78dfbe211742b18c4789a06509df424a4ae153d9 Emanuel Evans <mail@emanuel.industries> 1460419128 -0700	commit (amend): Z
+78dfbe211742b18c4789a06509df424a4ae153d9 bc074e5bd3fb030dde4e7b8a977fcee03096a117 Emanuel Evans <mail@emanuel.industries> 1460419218 -0700	commit: A
+bc074e5bd3fb030dde4e7b8a977fcee03096a117 e721620eee4b39ff88dd8c172c87d72c80a31fa4 Emanuel Evans <mail@emanuel.industries> 1460419897 -0700	commit: A
+e721620eee4b39ff88dd8c172c87d72c80a31fa4 b83e79cbdeccdc72005928289dceff49abfa22f1 Emanuel Evans <mail@emanuel.industries> 1460419913 -0700	commit: nothing
+b83e79cbdeccdc72005928289dceff49abfa22f1 991265529808f0aeb846f322b90139fd2090cc78 Emanuel Evans <mail@emanuel.industries> 1460422605 -0700	commit: fdsa
+991265529808f0aeb846f322b90139fd2090cc78 1cda5f17d11bb5cec85c88dbe64ad9371ff83582 Emanuel Evans <mail@emanuel.industries> 1460422621 -0700	rebase -i (finish): refs/heads/branch onto 6ba098fab65f6c04c173d7093a9d7b7718d28a16
+1cda5f17d11bb5cec85c88dbe64ad9371ff83582 9d9f967fef3d82253c98203c33cdc78142d9147a Emanuel Evans <mail@emanuel.industries> 1460422775 -0700	commit: ffdsa
+9d9f967fef3d82253c98203c33cdc78142d9147a 0656f62f3441c107fa74eac96fe66dc9894f26ee Emanuel Evans <mail@emanuel.industries> 1460422787 -0700	rebase -i (finish): refs/heads/branch onto 44731469d9dc7e1c74ba25bf071d19f50c54a8f8
+0656f62f3441c107fa74eac96fe66dc9894f26ee bca32bf426a456f74aa1162a07b644838436c6f3 Emanuel Evans <mail@emanuel.industries> 1460424357 -0700	rebase -i (finish): refs/heads/branch onto 47d8a3720e8ffa98578b2465b20ca215826fddb4
