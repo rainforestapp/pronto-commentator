@@ -1,7 +1,7 @@
 # Pronto Commentator [![Circle CI](https://circleci.com/gh/rainforestapp/pronto-commentator.svg?style=svg)](https://circleci.com/gh/rainforestapp/pronto-commentator)
 
 Pronto Commentator a very simple runner for
-[Pronto](https://github.com/mozuras/pronto) that outputs arbitrary comments
+[Pronto](https://github.com/mmozuras/pronto) that outputs arbitrary comments
 based on filename matching. It's good for tagging specific people to review
 specific kinds of changes (for instance, tagging your security team if
 auth-related files change), and probably other things as well.
