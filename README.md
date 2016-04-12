@@ -22,12 +22,12 @@ files:
     ping_real_writers.md
 ```
 
-The file names should point to files in the `.commentator` directory. For
-example, `.commentator/ping_bob.md` could look something like this:
+The message file names should point to files in the `.commentator`
+directory. For example, `.commentator/ping_bob.md` could look something like
+this:
 
 ```
-@bob looks like someone's trying to change the auth logic again, better take a
-look!
+@bob looks like someone's trying to change the auth logic again, better take a look!
 ```
 
 (Files don't have to be Markdown, but if you're using Github it's kinda nice).
