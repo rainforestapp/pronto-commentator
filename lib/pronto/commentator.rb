@@ -44,7 +44,7 @@ module Pronto
     def config
       conf_file = File.join CONFIG_DIR, 'config.yml'
 
-      @config ||= YAML.load(File.read(conf_file))
+      @commentator_config ||= YAML.load(File.read(conf_file))
     rescue Errno::ENOENT
       nil
     end
