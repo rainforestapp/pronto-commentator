@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/ruby:2.5.3
+      - image: circleci/ruby:2.6
     steps:
       - checkout
       - run:
@@ -27,7 +27,7 @@ jobs:
               --out ~/rspec/rspec.xml
   push_to_rubygems:
     docker:
-      - image: circleci/ruby:2.5.3
+      - image: circleci/ruby:2.6
     steps:
       - checkout
       - run:
