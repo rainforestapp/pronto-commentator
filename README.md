@@ -33,7 +33,7 @@ this:
 (Files don't have to be Markdown, but if you're using Github it's kinda nice).
 
 File name matching uses
-[Glob syntax](http://ruby-doc.org/core-2.3.0/Dir.html#method-c-glob).
+[Glob syntax](https://ruby-doc.org/core-2.7.0/Dir.html#method-c-glob).
 
 ## Contributing
 
