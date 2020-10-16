@@ -1,8 +1,12 @@
-version: 2
+version: 2.1
+
 jobs:
   test:
     docker:
       - image: circleci/ruby:2.7.1
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_TOKEN
     steps:
       - checkout
       - run:
@@ -28,6 +32,9 @@ jobs:
   push_to_rubygems:
     docker:
       - image: circleci/ruby:2.7.1
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_TOKEN
     steps:
       - checkout
       - run:
@@ -53,6 +60,8 @@ workflows:
             tags:
               only:
                 - /^v.*/
+          context:
+            - DockerHub
       - push_to_rubygems:
           requires:
             - test
@@ -63,3 +72,5 @@ workflows:
             tags:
               only:
                 - /^v.*/
+          context:
+            - DockerHub
