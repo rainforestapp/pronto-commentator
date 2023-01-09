@@ -51,6 +51,21 @@ jobs:
             gem build pronto-commentator
             gem push pronto-commentator-*.gem
 
+  update_jira:
+    docker:
+      - image: alpine:3.8
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_TOKEN
+    steps:
+      - run:
+          name: Install dependencies
+          command: apk add --no-cache bash curl git openssh
+      - checkout
+      - run:
+          name: Update JIRA
+          command: .circleci/update-jira.sh
+
 workflows:
   version: 2
   test_and_deploy:
@@ -74,3 +89,10 @@ workflows:
                 - /^v.*/
           context:
             - DockerHub
+            - RubyGems
+      - update_jira:
+          context:
+            - DockerHub
+            - update-jira-webhook
+          requires:
+            - push_to_rubygems
